@@ -54,6 +54,8 @@ public class AgendaContatos {
         contato.removerContato("Ana");
         contato.removerContato("Dedé");
 
+        contato.exibirContatos();
+
         System.out.println(contato.pesquisarPorNome("João"));
 
 
